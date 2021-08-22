@@ -11,7 +11,10 @@ struct EpisodesView: View {
     var body: some View {
         NavigationView
         {
-            
+            ScrollView
+            {
+                
+            }
         }
     }
 }
