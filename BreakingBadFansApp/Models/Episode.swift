@@ -11,8 +11,8 @@ struct Episode : Identifiable, Decodable
 {
     var id : Int
     var title : String
-    var season : Int
-    var episode : Int
+    var season : String
+    var episode : String
     
     enum CodingKeys: String, CodingKey
     {
