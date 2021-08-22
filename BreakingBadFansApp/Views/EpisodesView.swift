@@ -23,6 +23,7 @@ struct EpisodesView: View {
                         Text("Episode \(episode.episode)")
                         Text(episode.title)
                             .foregroundColor(Color.gray)
+                            .italic()
                     }
                 }
             }

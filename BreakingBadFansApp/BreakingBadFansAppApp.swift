@@ -26,6 +26,7 @@ struct BreakingBadFansAppApp: App {
                         Text("Episodes")
                     }
             }
+            .colorScheme(.dark)
         }
     }
 }

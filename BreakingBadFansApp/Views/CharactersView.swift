@@ -30,7 +30,7 @@ struct CharactersView: View {
                                                                 .frame(height: 150)
                                                                 .cornerRadius(8)
                                                             Text(character.nickname)
-                                                                .foregroundColor(Color.gray)
+                                                                .foregroundColor(.secondary)
                                                         }
                                                         
                                                     })
