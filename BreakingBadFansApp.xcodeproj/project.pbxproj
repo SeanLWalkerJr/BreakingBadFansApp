@@ -13,6 +13,7 @@
 		7F034FA926D1A62300B46D77 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F034FA826D1A62300B46D77 /* Preview Assets.xcassets */; };
 		7F034FB626D1EF8200B46D77 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F034FB526D1EF8200B46D77 /* Character.swift */; };
 		7F034FBA26D1EF9100B46D77 /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F034FB926D1EF9100B46D77 /* Episode.swift */; };
+		7F034FBD26D2994000B46D77 /* CharacterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F034FBC26D2994000B46D77 /* CharacterViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7F034FAA26D1A62300B46D77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F034FB526D1EF8200B46D77 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		7F034FB926D1EF9100B46D77 /* Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
+		7F034FBC26D2994000B46D77 /* CharacterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		7F034FB426D1EE4800B46D77 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				7F034FBC26D2994000B46D77 /* CharacterViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F034FB626D1EF8200B46D77 /* Character.swift in Sources */,
+				7F034FBD26D2994000B46D77 /* CharacterViewModel.swift in Sources */,
 				7F034FBA26D1EF9100B46D77 /* Episode.swift in Sources */,
 				7F034FA426D1A61E00B46D77 /* ContentView.swift in Sources */,
 				7F034FA226D1A61E00B46D77 /* BreakingBadFansAppApp.swift in Sources */,
