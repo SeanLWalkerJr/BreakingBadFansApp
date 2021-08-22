@@ -1,13 +1,5 @@
-//
-//  CharacterDetailView.swift
-//  BreakingBadFansApp
-//
-//  Created by User 1 on 8/22/21.
-//
-
 import SwiftUI
 import SDWebImageSwiftUI
-
 
 struct CharacterDetailView: View {
     
@@ -23,7 +15,7 @@ struct CharacterDetailView: View {
                 Text(character.name)
                     .font(.title)
                     .shadow(color: .black, radius: 2, x: 2, y: 2)
-
+                
                 Text(character.nickname)
                     .font(.title2)
                     .foregroundColor(.secondary)

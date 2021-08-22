@@ -1,4 +1,3 @@
-
 import SwiftUI
 import SDWebImageSwiftUI
 
@@ -44,12 +43,6 @@ struct CharactersView: View {
             })
         }
         
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        CharactersView()
     }
 }
 

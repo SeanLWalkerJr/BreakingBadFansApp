@@ -1,9 +1,3 @@
-//
-//  CharacterViewModel.swift
-//  BreakingBadFansApp
-//
-//
-
 import Foundation
 
 class EpisodesViewModel : ObservableObject

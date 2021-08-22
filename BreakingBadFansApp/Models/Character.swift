@@ -1,10 +1,3 @@
-//
-//  Character.swift
-//  BreakingBadFansApp
-//
-//  Created by User 1 on 8/21/21.
-//
-
 import Foundation
 
 struct Character : Decodable, Identifiable
