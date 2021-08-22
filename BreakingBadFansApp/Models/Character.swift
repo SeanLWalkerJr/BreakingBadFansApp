@@ -9,9 +9,9 @@ import Foundation
 
 struct Character : Decodable, Identifiable
 {
-    var id : String
+    var id : Int
     var name : String
-    var img : String
+    var img : URL
     var status : String
     var nickname : String
     

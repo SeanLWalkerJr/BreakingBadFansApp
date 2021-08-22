@@ -12,7 +12,7 @@ class CharacterViewModel : ObservableObject
     
     func fetchCharacters()
     {
-        let url = URL(string: "https://www.breakingbadapi.com/api/")!
+        let url = URL(string: "https://www.breakingbadapi.com/api/characters")!
         URLSession.shared.dataTask(with: url) {data, _, error in
             if let error = error {
                 print(error.localizedDescription)

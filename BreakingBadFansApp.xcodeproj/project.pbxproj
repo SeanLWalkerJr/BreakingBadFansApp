@@ -3,29 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		7F034FA226D1A61E00B46D77 /* BreakingBadFansAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F034FA126D1A61E00B46D77 /* BreakingBadFansAppApp.swift */; };
-		7F034FA426D1A61E00B46D77 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F034FA326D1A61E00B46D77 /* ContentView.swift */; };
 		7F034FA626D1A62300B46D77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F034FA526D1A62300B46D77 /* Assets.xcassets */; };
 		7F034FA926D1A62300B46D77 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F034FA826D1A62300B46D77 /* Preview Assets.xcassets */; };
 		7F034FB626D1EF8200B46D77 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F034FB526D1EF8200B46D77 /* Character.swift */; };
 		7F034FBA26D1EF9100B46D77 /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F034FB926D1EF9100B46D77 /* Episode.swift */; };
 		7F034FBD26D2994000B46D77 /* CharacterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F034FBC26D2994000B46D77 /* CharacterViewModel.swift */; };
+		7F034FC026D29AF900B46D77 /* CharactersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F034FBF26D29AF900B46D77 /* CharactersView.swift */; };
+		7F034FC426D29D6C00B46D77 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 7F034FC326D29D6C00B46D77 /* SDWebImage */; };
+		7F034FC826D29D8C00B46D77 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 7F034FC726D29D8C00B46D77 /* SDWebImageSwiftUI */; };
+		7F034FD026D2A27600B46D77 /* CharacterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F034FCF26D2A27600B46D77 /* CharacterDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7F034F9E26D1A61E00B46D77 /* BreakingBadFansApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreakingBadFansApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F034FA126D1A61E00B46D77 /* BreakingBadFansAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakingBadFansAppApp.swift; sourceTree = "<group>"; };
-		7F034FA326D1A61E00B46D77 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7F034FA526D1A62300B46D77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F034FA826D1A62300B46D77 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7F034FAA26D1A62300B46D77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F034FB526D1EF8200B46D77 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		7F034FB926D1EF9100B46D77 /* Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
 		7F034FBC26D2994000B46D77 /* CharacterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewModel.swift; sourceTree = "<group>"; };
+		7F034FBF26D29AF900B46D77 /* CharactersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersView.swift; sourceTree = "<group>"; };
+		7F034FCF26D2A27600B46D77 /* CharacterDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +37,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F034FC826D29D8C00B46D77 /* SDWebImageSwiftUI in Frameworks */,
+				7F034FC426D29D6C00B46D77 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +68,6 @@
 				7F034FB326D1EE3A00B46D77 /* Views */,
 				7F034FB226D1EDE300B46D77 /* Models */,
 				7F034FA126D1A61E00B46D77 /* BreakingBadFansAppApp.swift */,
-				7F034FA326D1A61E00B46D77 /* ContentView.swift */,
 				7F034FA526D1A62300B46D77 /* Assets.xcassets */,
 				7F034FAA26D1A62300B46D77 /* Info.plist */,
 				7F034FA726D1A62300B46D77 /* Preview Content */,
@@ -90,6 +95,8 @@
 		7F034FB326D1EE3A00B46D77 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				7F034FBF26D29AF900B46D77 /* CharactersView.swift */,
+				7F034FCF26D2A27600B46D77 /* CharacterDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -118,6 +125,10 @@
 			dependencies = (
 			);
 			name = BreakingBadFansApp;
+			packageProductDependencies = (
+				7F034FC326D29D6C00B46D77 /* SDWebImage */,
+				7F034FC726D29D8C00B46D77 /* SDWebImageSwiftUI */,
+			);
 			productName = BreakingBadFansApp;
 			productReference = 7F034F9E26D1A61E00B46D77 /* BreakingBadFansApp.app */;
 			productType = "com.apple.product-type.application";
@@ -145,6 +156,10 @@
 				Base,
 			);
 			mainGroup = 7F034F9526D1A61E00B46D77;
+			packageReferences = (
+				7F034FC226D29D6C00B46D77 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				7F034FC626D29D8C00B46D77 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = 7F034F9F26D1A61E00B46D77 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -173,8 +188,9 @@
 			files = (
 				7F034FB626D1EF8200B46D77 /* Character.swift in Sources */,
 				7F034FBD26D2994000B46D77 /* CharacterViewModel.swift in Sources */,
+				7F034FC026D29AF900B46D77 /* CharactersView.swift in Sources */,
+				7F034FD026D2A27600B46D77 /* CharacterDetailView.swift in Sources */,
 				7F034FBA26D1EF9100B46D77 /* Episode.swift in Sources */,
-				7F034FA426D1A61E00B46D77 /* ContentView.swift in Sources */,
 				7F034FA226D1A61E00B46D77 /* BreakingBadFansAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -364,6 +380,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7F034FC226D29D6C00B46D77 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.11.1;
+			};
+		};
+		7F034FC626D29D8C00B46D77 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7F034FC326D29D6C00B46D77 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F034FC226D29D6C00B46D77 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		7F034FC726D29D8C00B46D77 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F034FC626D29D8C00B46D77 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7F034F9626D1A61E00B46D77 /* Project object */;
 }

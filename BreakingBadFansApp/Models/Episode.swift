@@ -9,7 +9,7 @@ import Foundation
 
 struct Episode : Identifiable, Decodable
 {
-    var id : String
+    var id : Int
     var title : String
     var season : Int
     var episode : Int
