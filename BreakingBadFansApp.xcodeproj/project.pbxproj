@@ -17,6 +17,8 @@
 		7F034FC426D29D6C00B46D77 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 7F034FC326D29D6C00B46D77 /* SDWebImage */; };
 		7F034FC826D29D8C00B46D77 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 7F034FC726D29D8C00B46D77 /* SDWebImageSwiftUI */; };
 		7F034FD026D2A27600B46D77 /* CharacterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F034FCF26D2A27600B46D77 /* CharacterDetailView.swift */; };
+		7F034FD326D2B64100B46D77 /* EpisodesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F034FD226D2B64100B46D77 /* EpisodesView.swift */; };
+		7F034FD626D2B6C600B46D77 /* EpisodesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F034FD526D2B6C600B46D77 /* EpisodesViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		7F034FBC26D2994000B46D77 /* CharacterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewModel.swift; sourceTree = "<group>"; };
 		7F034FBF26D29AF900B46D77 /* CharactersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersView.swift; sourceTree = "<group>"; };
 		7F034FCF26D2A27600B46D77 /* CharacterDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailView.swift; sourceTree = "<group>"; };
+		7F034FD226D2B64100B46D77 /* EpisodesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodesView.swift; sourceTree = "<group>"; };
+		7F034FD526D2B6C600B46D77 /* EpisodesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodesViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 			children = (
 				7F034FBF26D29AF900B46D77 /* CharactersView.swift */,
 				7F034FCF26D2A27600B46D77 /* CharacterDetailView.swift */,
+				7F034FD226D2B64100B46D77 /* EpisodesView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -105,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				7F034FBC26D2994000B46D77 /* CharacterViewModel.swift */,
+				7F034FD526D2B6C600B46D77 /* EpisodesViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -188,10 +194,12 @@
 			files = (
 				7F034FB626D1EF8200B46D77 /* Character.swift in Sources */,
 				7F034FBD26D2994000B46D77 /* CharacterViewModel.swift in Sources */,
+				7F034FD626D2B6C600B46D77 /* EpisodesViewModel.swift in Sources */,
 				7F034FC026D29AF900B46D77 /* CharactersView.swift in Sources */,
 				7F034FD026D2A27600B46D77 /* CharacterDetailView.swift in Sources */,
 				7F034FBA26D1EF9100B46D77 /* Episode.swift in Sources */,
 				7F034FA226D1A61E00B46D77 /* BreakingBadFansAppApp.swift in Sources */,
+				7F034FD326D2B64100B46D77 /* EpisodesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
