@@ -11,6 +11,8 @@
 		7F034FA426D1A61E00B46D77 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F034FA326D1A61E00B46D77 /* ContentView.swift */; };
 		7F034FA626D1A62300B46D77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F034FA526D1A62300B46D77 /* Assets.xcassets */; };
 		7F034FA926D1A62300B46D77 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F034FA826D1A62300B46D77 /* Preview Assets.xcassets */; };
+		7F034FB626D1EF8200B46D77 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F034FB526D1EF8200B46D77 /* Character.swift */; };
+		7F034FBA26D1EF9100B46D77 /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F034FB926D1EF9100B46D77 /* Episode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		7F034FA526D1A62300B46D77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F034FA826D1A62300B46D77 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7F034FAA26D1A62300B46D77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F034FB526D1EF8200B46D77 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		7F034FB926D1EF9100B46D77 /* Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,9 @@
 		7F034FA026D1A61E00B46D77 /* BreakingBadFansApp */ = {
 			isa = PBXGroup;
 			children = (
+				7F034FB426D1EE4800B46D77 /* ViewModels */,
+				7F034FB326D1EE3A00B46D77 /* Views */,
+				7F034FB226D1EDE300B46D77 /* Models */,
 				7F034FA126D1A61E00B46D77 /* BreakingBadFansAppApp.swift */,
 				7F034FA326D1A61E00B46D77 /* ContentView.swift */,
 				7F034FA526D1A62300B46D77 /* Assets.xcassets */,
@@ -67,6 +74,29 @@
 				7F034FA826D1A62300B46D77 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7F034FB226D1EDE300B46D77 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7F034FB526D1EF8200B46D77 /* Character.swift */,
+				7F034FB926D1EF9100B46D77 /* Episode.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7F034FB326D1EE3A00B46D77 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7F034FB426D1EE4800B46D77 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +168,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F034FB626D1EF8200B46D77 /* Character.swift in Sources */,
+				7F034FBA26D1EF9100B46D77 /* Episode.swift in Sources */,
 				7F034FA426D1A61E00B46D77 /* ContentView.swift in Sources */,
 				7F034FA226D1A61E00B46D77 /* BreakingBadFansAppApp.swift in Sources */,
 			);
