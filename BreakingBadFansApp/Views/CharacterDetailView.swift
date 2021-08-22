@@ -14,16 +14,17 @@ struct CharacterDetailView: View {
     var character : Character
     var body: some View {
         ScrollView{
-            WebImage(url: character.img)
-                .resizable()
-                .indicator(.activity)
-                .aspectRatio(contentMode: .fit)
             VStack(alignment: .leading){
+                WebImage(url: character.img)
+                    .resizable()
+                    .indicator(.activity)
+                    .aspectRatio(contentMode: .fill)
                 Text(character.name)
-                    .font(.title)
-                //Spacer()
+                    .font(.largeTitle)
                 Text(character.nickname)
-                    .font(.title)
+                    .font(.title2)
+                Spacer()
+                    .frame(height: 30)
                 Text("Status")
                     .font(.title)
                 Text(character.status)
